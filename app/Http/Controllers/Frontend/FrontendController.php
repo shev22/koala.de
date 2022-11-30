@@ -7,6 +7,14 @@ use Illuminate\Http\Request;
 
 class FrontendController extends Controller
 {
+
+
+    public function products()
+    {
+        return view('frontend.products');
+    }
+
+
     public function index()
     {
         return view('frontend.index');
